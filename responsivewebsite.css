@@ -15,6 +15,7 @@ body {
 
 img {
   max-width: 100%;
+  
 }
 
 header {
@@ -168,8 +169,7 @@ header ul.right-nav li {
   
   .text-section-a {
     
-   
-    width: 45%;
+      
     margin-right: 20px;
    padding:10px;
   
@@ -191,7 +191,7 @@ header ul.right-nav li {
  .main {
    max-width: 1050px;
    margin: 50px auto;
-   border: 1px solid black;
+   
    display:flex;
    flex-wrap: wrap;
  }
@@ -237,7 +237,7 @@ padding:30px;
     
   }
 
-  .main .patreon {
+  .patreon {
    
     width: 75%;
     
@@ -262,10 +262,12 @@ padding:30px;
 
   
  .image-box {
-   background-color: aqua;
+   
   
    padding: 15px;
    margin: 15px;
+   
+   justify-content: center;
 
  }
 
@@ -289,17 +291,104 @@ padding:30px;
    font-weight: 700;
  }
 
+ .artists a:hover {
+   text-decoration: underline;
+   
+ }
+
+ .fa-angle-right {
+   color: red;
+   
+ }
+
+ .text-links a {
+   font-size: 1.62em;
+   font-weight: 700;
+   color: rgb(173, 172, 172);
+   line-height: 32.5px;
+   display:block;
+  
+   padding-left: 15px;
+   margin-left: 15px;
+
+   
+ }
+
+ .text-links a:hover {
+   color:black;
+   text-decoration: underline;
+   cursor: pointer;
+ }
+
+ .patreon-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: center;
+ }
+
+ .image-links {
+ 
+ 
+  padding: 15px;
+  margin: 15px;
+
+}
+
+.footer {
+  background-color: black;
+  min-height: 500px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.footer-section {
+  max-width: 1050px;
+  margin: 20px auto;
+  border: 1px solid black;
+  display:flex;
+  flex-wrap: wrap;
+  color: #f1f1f1;
+  
+ 
+  justify-content: space-around;
+  
+  padding: 30px 15px;
+}
+
+.footer-section a {
+  color:#f1f1f1;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+} 
+
+
+
+
+.social-links {
+  display: flex;
+  
+}
+
+.social-links li {
+  padding: 5px;
+}
+
   /* Desktop Styles */
   @media only screen and (min-width: 1024px) {
 
 
     body {
-      background-color: #a1cca5; 
+      
       
     }
     
 
-    .text-box, .image-box {
+    .text-box, .image-box, .text-links a, image-links {
       flex: 45%;
     }
  
