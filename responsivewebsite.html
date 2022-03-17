@@ -16,18 +16,20 @@
 
 <body>
     
-
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
    
 
         <header>
- 
+            <nav class="main-nav show">
             
-            <a href="#"><img src="logo.jpg" alt="logo" width="28px"></a>
+           <div><a href="#"><img src="logo.jpg" alt="logo" width="28px"></a></div> 
 
 
-            <nav class="main-nav">
+           
                 <div class="dropdown">
-                <button class="dropbtn">Product<i class="fa fa-angle-down"></i></i> </button>
+                <div class="dropbtn">Product<i class="fa fa-angle-down"></i> </div>
                  <div class="dropdown-content">
                         <a href="#">Lite</a>
                         <a href="#">Pro </a>
@@ -35,7 +37,7 @@
                     </div> 
                 </div>
                 <div class="dropdown">
-                    <button class="dropbtn">For creators<i class="fa fa-angle-down"></i></button>
+                    <div class="dropbtn">For creators<i class="fa fa-angle-down"></i></div>
                      <div class="dropdown-content">
                             <a href="#"><i class="fa-solid fa-podcast"></i>Podcast</a>
                             <a href="#"><i class="fa-solid fa-video"></i>Video Creators </a>
@@ -48,10 +50,10 @@
                         </div> 
                     </div>
 
-                <a href="#">Pricing</a>
+                <div><a href="#">Pricing</a></div>
 
                 <div class="dropdown">
-                    <button class="dropbtn">Resources<i class="fa fa-angle-down"></i> </button>
+                    <div class="dropbtn">Resources<i class="fa fa-angle-down"></i> </div>
                      <div class="dropdown-content">
                             <a href="#">Blog</a>
                             <a href="#">Creator Community </a>
@@ -61,7 +63,7 @@
                             <a href="#">Help Center & FAQ</a>
                         </div> 
                     </div>
-                <a href="#">Starter Kits</a>
+                    <div> <a href="#">Starter Kits</a></div>
                 
            
             </nav>
@@ -180,7 +182,7 @@
                 
             </div>
 
-            <div class="image-links">
+            <div class="image-box">
                 <img src="foto5.png">
             </div>
 
@@ -244,9 +246,10 @@
 </div>
               
 
+<script>  document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('nav.main-nav').classList.toggle('show'));
         
              
-    
+    </script>
     
     
 </body>
