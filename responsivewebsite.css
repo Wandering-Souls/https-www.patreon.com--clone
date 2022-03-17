@@ -59,22 +59,37 @@ header nav.main-nav  {
 
 header nav.main-nav a {
   padding-right: 25px;
+
   
 }
 
 
 
-header ul.right-nav {
+ ul.right-nav {
     display: flex;
+    justify-content: center;
 }
+
+
 
 header ul.right-nav li {
-  padding: 20px;
+  padding: 15px;
+  
 }
 
 
 
- 
+.fa-search {
+  background-color: #f1f1f1;
+  padding: 5px;
+  color: gray;
+  
+  
+  }
+
+  .dropdown-content .fa-solid {
+    margin-right: 7px;
+  }
 
   /*dropdown navbar*/
 
@@ -203,17 +218,6 @@ header ul.right-nav li {
  }
 
 
-.fa-search {
-  background-color: #f1f1f1;
-  padding: 5px;
-  color: gray;
-  
-  
-
-
-
-}
-
 
 
 .search-bar {
@@ -243,14 +247,14 @@ header ul.right-nav li {
  
 }
   
-  form {
+  .search-bar form {
     
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     
     justify-content: center;
-    padding: 15px 5px;
+    
     
   }
 
