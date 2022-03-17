@@ -305,7 +305,7 @@ header ul.right-nav li {
    
    justify-content: center;
    flex: 45%;
-   border: 1px solid yellow;
+  
 
  }
 
@@ -340,7 +340,7 @@ header ul.right-nav li {
    
  }
  .text-links {
-   background-color: aquamarine;
+  
    flex: 45%;
    margin: 15px;
 
@@ -372,7 +372,7 @@ header ul.right-nav li {
   flex-wrap: wrap;
     flex-direction: row-reverse;
   justify-content: center;
-  background-color: bisque;
+  
   
  }
 
@@ -471,10 +471,42 @@ header ul.right-nav li {
   
   min-width: 100%;
  
-  
-
-
     
   }
+
+}
+
+
+@media(max-width: 750px) {
+
+  .image-box {
+   
+    
+    flex: 90%;
+   
+ 
+  }
+ 
+  .text-box {
+      
+    flex: 90%;
+  }
+
+  
+
+  ul.right-nav {
+   
+    
+    
+  }  
+
+  
+header {
+  height: 130px;
+}
+
+
+
+
 
 }
